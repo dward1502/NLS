@@ -1,0 +1,13 @@
+.composition-about {
+  width: 450px;
+  height: 450px;
+}
+
+.about__photo-1 {
+  max-width: 100%;
+  max-height: 100%;
+
+  @include respond(phone) {
+    width: 350px;
+  }
+}
